@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>비디오, 오디오 유튜브 보기</title>
+    <style>
+      div {
+        margin: 0 auto;
+        width: 40%;
+        text-align: center;
+      }
+      h2 {
+        background-color: rgb(249, 226, 226);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>버거 패티 만드는 과정</h2>
+      <video src="./media/buger1.mp4" width="300" controls></video>
+      <h2>버거 패티 만들 동안 들을노래</h2>
+      <audio src="./media/morning_vow.mp3" controls loop></audio>
+      <h2>유튜브 동영상 연결</h2>
+      <iframe
+        width="500"
+        height="300"
+        src="https://www.youtube.com/embed/aEr37bSc4KU"
+        title='"북한군 사상자 90% 달할 수도"…격전지 투입 전망 / SBS 8뉴스'
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>
